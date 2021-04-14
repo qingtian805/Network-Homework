@@ -1,5 +1,4 @@
 from socket import *
-from typing import Tuple
 serverPort = 12000 #设置服务器属性
 serverSocket = socket(AF_INET, SOCK_DGRAM) #创建套接字，使用IPv4和UDP
 serverSocket.bind(('', serverPort)) #将端口12000绑定
