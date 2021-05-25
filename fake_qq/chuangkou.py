@@ -31,10 +31,11 @@ app.resizable(0, 0)
  
  
 # 聊天消息预览窗口
-t1_Msg = tk.Text(width=66, height=30)
+t1_Msg = tk.Text(width=88, height=30)
 t1_Msg.insert("end","欢迎使用！请发送第一条信息作为用户名".center(88))
-t1_Msg.tag_config('green', foreground='#008C00',state=tk.DISABLED) 
+t1_Msg.tag_config('green', foreground='#008C00') 
 t1_Msg.place(x=2, y=35)
+t1_Msg.config(state=tk.DISABLED)
  
 # 聊天消息发送
 t2_sendMsg = tk.Text(width=80, height=8)
