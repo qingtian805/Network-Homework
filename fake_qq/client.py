@@ -1,7 +1,7 @@
 from socket import *
 from threading import Thread
 
-serverName = "127.0.0.1"
+serverName = "119.3.238.232"
 serverPort = 60262
 
 def sendMessage(message : str):
